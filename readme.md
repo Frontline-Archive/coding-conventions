@@ -16,7 +16,8 @@ curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conv
 ```
 
 Install these packages for Sublime Text 3
-* https://github.com/SublimeLinter/SublimeLinter3
-* https://github.com/mdevils/node-jscs/
-* https://github.com/roadhump/SublimeLinter-eslint
-* https://github.com/SublimeLinter/SublimeLinter-jshint
+* [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
+* [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3)
+* [SublimeLinter-jscs](https://github.com/SublimeLinter/SublimeLinter-jscs)
+* [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
+* [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint)

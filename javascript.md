@@ -1,9 +1,3 @@
-Install these packages for Sublime Text 3
-* https://github.com/SublimeLinter/SublimeLinter3
-* https://github.com/mdevils/node-jscs/
-* https://github.com/roadhump/SublimeLinter-eslint
-* https://github.com/SublimeLinter/SublimeLinter-jshint
-
 * `use strict;`
 * Absolutely no `eval()` statements
 * Variables must be explicitly declared

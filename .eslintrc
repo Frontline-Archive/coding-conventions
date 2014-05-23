@@ -76,7 +76,7 @@
 		"space-infix-ops"         : true,
 		"space-return-throw-case" : true,
 		"space-unary-word-ops"    : true,
-		"max-nested-callbacks"    : [ 2, 3 ],
+		"max-nested-callbacks"    : [ 1, 4 ],
 		"one-var"                 : false
 	}
 }

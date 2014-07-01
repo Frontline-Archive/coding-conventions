@@ -49,6 +49,7 @@
 	"disallowEmptyBlocks"               : true,
 	"requireSpacesInsideObjectBrackets" : "all",
 	"requireSpacesInsideArrayBrackets"  : "all",
+	"requireSpacesInsideParentheses"    : "all",
 	"requireSpaceAfterObjectKeys"       : true,
 	"requireCommaBeforeLineBreak"       : true,
 	"requireAlignedObjectValues"        : "skipWithLineBreak",

@@ -16,3 +16,6 @@ Added support for IE5 (52)
 - Changed all Array.forEach to _.each()
 - Refactored the Goblin class (142)
 ```
+
+## Branching Strategy
+![Branching Strategy](https://github.com/fakewaffle/coding-conventions/raw/master/images/git-branching-model.png)

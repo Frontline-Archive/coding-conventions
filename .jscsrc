@@ -44,6 +44,11 @@
 		"beforeOpeningCurlyBrace" : true
 	},
 
+	"requireSpacesInFunction" : {
+	    "beforeOpeningRoundBrace" : true,
+	    "beforeOpeningCurlyBrace" : true
+	},
+
 	"disallowMultipleVarDecl"           : true,
 	"requireBlocksOnNewline"            : true,
 	"disallowEmptyBlocks"               : true,
@@ -93,5 +98,13 @@
 	"requireCapitalizedConstructors"         : true,
 	"safeContextKeyword"                     : [ "self", "that" ],
 	"requireDotNotation"                     : true,
-	"disallowYodaConditions"                 : true
+	"disallowYodaConditions"                 : true,
+
+	"validateJSDoc" : {
+	    "checkParamNames"      : true,
+	    "checkRedundantParams" : true,
+	    "requireParamTypes"    : true
+	},
+
+	"requireSpaceAfterLineComment" : true
 }

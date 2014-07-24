@@ -27,3 +27,19 @@ Example:
 	}
 }
 ```
+
+## Mixins
+Use mixins where available. Bootstrap comes with many different [vendor](http://getbootstrap.com/css/#less-mixins-vendor) and [ultility](http://getbootstrap.com/css/#less-mixins-utility) mixins pre-configured.
+
+```css
+/* Good */
+.border-top-radius( 0 );
+.box-shadow( inset 0 1px 1px rgba( 0, 0, 0, .075 ) );
+
+/* Bad */
+border-top-right-radius : 0;
+border-top-left-radius  : 0;
+
+-webkit-box-shadow : inset 0 1px 1px rgba( 0, 0, 0, .075 ) ;
+box-shadow         : inset 0 1px 1px rgba( 0, 0, 0, .075 ) ;
+```

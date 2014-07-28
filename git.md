@@ -1,21 +1,69 @@
-## Commit Messages
-From [the git documentation](http://git.kernel.org/cgit/git/git.git/tree/Documentation/SubmittingPatches?id=HEAD)
-* provide a meaningful commit message
-* use past tense: "Changed" or "Changes", not "Change". (This differs from the documentation which uses imperative, present tense)
-* If applicable, reference the story or task # in the title (and in the bullet items where appropriate).
-    * Don't use a hash (#) in front of the story or it will link to github issues
-* If applicable, reference an github issue using a hash (#) and the number
-    * e.g. `#45`
-    * With the correct verbs, this will close issues automatically.
+# Commit Messages
 
-Commit messages should be formatted as follows:
+## The reasons for these conventions:
+- automatic generating of the changelog
+- simple navigation through git history (eg. ignoring style changes)
 
-```
-Added support for IE5 (52)
+## Format of the commit message:
+```bash
+<type>(<scope>): <subject>
 
-- Changed all Array.forEach to _.each()
-- Refactored the Goblin class (142)
+<body>
+
+<footer>
 ```
 
-## Branching Strategy
+
+## Message subject (first line)
+First line cannot be longer than 70 characters, second line is always
+blank and other lines should be wrapped at 80 characters.
+
+### Allowed `<type>` values:
+
+* **feature** (new feature for the user, not a new feature for build script)
+* **fix** (bug fix for the user, not a fix to a build script)
+* **docs** (changes to the documentation)
+* **style** (formatting, missing semi colons, etc; no production code change)
+* **refactor** (refactoring production code, eg. renaming a variable)
+* **test** (adding missing tests, refactoring tests; no production code change)
+* **chore** (updating grunt tasks etc; no production code change)
+
+### Example `<scope>` values:
+
+* init
+* runner
+* watcher
+* config
+* web-server
+* proxy
+* etc.
+
+The `<scope>` can be empty (eg. if the change is a global or difficult
+to assign to a single component), in which case the parentheses are
+omitted.
+
+
+## Message body
+* uses the imperative, present tense: “change” not “changed” nor “changes”
+* includes motivation for the change and contrasts with previous behavior
+
+For more info about message body, see:
+
+* http://365git.tumblr.com/post/3308646748/writing-git-commit-messages
+* http://tbaggery.com/2008/04/19/a-note-about-git-commit-messages.html
+
+
+## Message footer
+
+### Referencing issues
+Closed issues should be listed on a separate line in the footer prefixed with "Closes" keyword like this:
+```bash
+Closes #234
+```
+or in case of multiple issues:
+```bash
+Closes #123, #245, #992
+```
+
+# Branching Strategy
 ![Branching Strategy](https://github.com/fakewaffle/coding-conventions/raw/master/images/git-branching-model.png)

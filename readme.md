@@ -36,3 +36,4 @@ Install these packages for Sublime Text 3
 * [SublimeLinter-jscs](https://github.com/SublimeLinter/SublimeLinter-jscs)
 * [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
 * [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint)
+* [DocBlockr](https://github.com/spadgos/sublime-jsdocs)

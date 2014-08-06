@@ -1,0 +1,15 @@
+{
+  "name": "sinet-coding-conventions",
+  "version": "1.0.0",
+  "description": "Coding conventions for School Improvement Network",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/School-Improvement-Network/coding-conventions.git"
+  },
+  "author": "Justin Morris (fakewaffle)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/School-Improvement-Network/coding-conventions/issues"
+  },
+  "homepage": "https://github.com/School-Improvement-Network/coding-conventions"
+}

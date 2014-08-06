@@ -29,6 +29,9 @@
 		"describe"   : true,
 		"it"         : true,
 		"after"      : true,
-		"afterEach"  : true
+		"afterEach"  : true,
+		"should"     : true,
+		"inject"     : true,
+		"angular"    : true
 	}
 }

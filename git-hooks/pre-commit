@@ -1,4 +1,3 @@
 #!/bin/sh
 
-grunt check
-npm test
+grunt check && npm test

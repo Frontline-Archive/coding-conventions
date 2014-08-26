@@ -58,11 +58,15 @@ For more info about message body, see:
 ### Referencing issues
 Closed issues should be listed on a separate line in the footer prefixed with "Closes" keyword like this:
 ```bash
-Closes #234
+Closes 234
 ```
 or in case of multiple issues:
 ```bash
-Closes #123, #245, #992
+Closes 123, 245, 992
+```
+To enable auto-linking to issues created in GitHub prefix the issue number with "#" like this:
+```
+Closes #583
 ```
 
 # Branching Strategy

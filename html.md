@@ -31,3 +31,12 @@ HTML attributes should come in this particular order for easier reading of code.
 * ```src```, ```for```, ```type```, ```rel```, ```href```
 * ```title```, ```alt```
 * ```aria-*```, ```role```
+
+
+## JavaScript class selectors
+When using classes for JavaScript selectors prefix with ```js-```
+
+```html
+<!-- Example -->
+<span class='js-selector-class class-for-styling'></span>
+```

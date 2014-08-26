@@ -43,3 +43,6 @@ border-top-left-radius  : 0;
 -webkit-box-shadow : inset 0 1px 1px rgba( 0, 0, 0, .075 ) ;
 box-shadow         : inset 0 1px 1px rgba( 0, 0, 0, .075 ) ;
 ```
+
+## JavaScript class selectors
+In order to separate the functionality from the aesthetics do not style JavaScript selector classes. This means any class beginning with ```js-``` should not have any styling assigned to it. This makes it easier to refactor either the CSS or the JavaScript without breaking the other.

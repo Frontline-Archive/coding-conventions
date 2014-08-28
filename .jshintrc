@@ -31,6 +31,10 @@
 		"after"      : true,
 		"afterEach"  : true,
 		"should"     : true,
+		"expect"     : true,
+		"browser"    : true,
+		"by"         : true,
+		"element"    : true,
 		"inject"     : true,
 		"angular"    : true
 	}

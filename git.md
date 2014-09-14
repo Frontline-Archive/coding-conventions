@@ -56,17 +56,29 @@ For more info about message body, see:
 ## Message footer
 
 ### Referencing issues
-Closed issues should be listed on a separate line in the footer prefixed with "Closes" keyword like this:
+Issues should be listed on a separate line in the footer prefixed with either a "Closes" or "Issue(s)" keyword. "Closes" should be used for issues that are completed. If it is a large issue and the commit only addresses part of the issue you should reference the issue with "Issue(s)" like this:
 ```bash
+# Closed Issue
 Closes 234
+
+# Referenced Issue
+Issue 234
 ```
 or in case of multiple issues:
 ```bash
+# Closed Issues
 Closes 123, 245, 992
+
+# Referenced Issues
+Issues 123, 245, 992
 ```
 To enable auto-linking to issues created in GitHub prefix the issue number with "#" like this:
-```
+```bash
+# Closed Issue
 Closes #583
+
+# Referenced Issue
+Issue #583
 ```
 
 # Branching Strategy

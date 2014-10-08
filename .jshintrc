@@ -36,6 +36,7 @@
 		"by"         : true,
 		"element"    : true,
 		"inject"     : true,
+		"spyOn"      : true,
 		"angular"    : true
 	}
 }

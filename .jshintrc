@@ -17,7 +17,7 @@
 	"sub"       : true,
 	"smarttabs" : true,
 	"camelcase" : true,
-	"maxparams" : 5,
+	"maxparams" : 8,
 	"unused"    : "vars",
 
 	"globals": {

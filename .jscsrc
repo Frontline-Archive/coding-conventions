@@ -1,7 +1,9 @@
 {
 	"excludeFiles" : [
 		"node_modules/**",
-		"test/data/**"
+		"test/data/**",
+		"instrumented/**",
+		"grunt/**"
 	],
 
 	"requireCurlyBraces" : [

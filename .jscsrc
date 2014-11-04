@@ -1,4 +1,9 @@
 {
+	"excludeFiles" : [
+		"node_modules/**",
+		"test/data/**"
+	],
+
 	"requireCurlyBraces" : [
 		"if",
 		"else",

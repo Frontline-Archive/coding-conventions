@@ -59,6 +59,7 @@
 		"camelcase"               : true,
 		"consistent-this"         : [ 0, "self" ],
 		"func-names"              : true,
+		"key-spacing"             : false,
 		"new-cap"                 : true,
 		"new-parens"              : true,
 		"no-nested-ternary"       : true,

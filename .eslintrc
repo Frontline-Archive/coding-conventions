@@ -6,6 +6,10 @@
 		"mocha"   : true
 	},
 
+	"globals": {
+		"angular": true
+	},
+
 	"rules": {
 
 		// Best Practices

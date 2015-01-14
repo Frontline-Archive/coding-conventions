@@ -27,6 +27,7 @@ blank and other lines should be wrapped at 80 characters.
 * **refactor** (refactoring production code, eg. renaming a variable)
 * **test** (adding missing tests, refactoring tests; no production code change)
 * **chore** (updating grunt tasks etc; no production code change)
+* **release** (updating package version numbers for a release)
 
 ### Example `<scope>` values:
 

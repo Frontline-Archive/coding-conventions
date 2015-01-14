@@ -30,7 +30,7 @@
 		"no-loop-func"          : 2,
 		"no-multi-spaces"       : 0,
 		"no-native-reassign"    : 2,
-		"no-new"                : 2,
+		"no-new"                : 1,
 		"no-new-func"           : 2,
 		"no-proto"              : 2,
 		"no-redeclare"          : 2,

@@ -1,9 +1,11 @@
 {
 	"excludeFiles" : [
-		"node_modules/**",
-		"test/data/**",
+		"bower_components/**",
+		"build/**",
+		"grunt/**",
 		"instrumented/**",
-		"grunt/**"
+		"node_modules/**",
+		"test/data/**"
 	],
 
 	"requireCurlyBraces" : [

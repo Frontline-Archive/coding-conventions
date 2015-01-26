@@ -13,6 +13,7 @@
 		"expect"     : true,
 		"inject"     : true,
 		"it"         : true,
+		"jasmine"    : true,
 		"module"     : true,
 		"require"    : true,
 		"should"     : true,

@@ -21,22 +21,23 @@
 	"unused"    : "vars",
 
 	"globals": {
-		"module"     : true,
-		"require"    : true,
-		"define"     : true,
-		"before"     : true,
-		"beforeEach" : true,
-		"describe"   : true,
-		"it"         : true,
 		"after"      : true,
 		"afterEach"  : true,
-		"should"     : true,
-		"expect"     : true,
+		"angular"    : true,
+		"before"     : true,
+		"beforeEach" : true,
 		"browser"    : true,
 		"by"         : true,
+		"define"     : true,
+		"describe"   : true,
 		"element"    : true,
+		"expect"     : true,
 		"inject"     : true,
-		"spyOn"      : true,
-		"angular"    : true
+		"it"         : true,
+		"jasmine"    : true,
+		"module"     : true,
+		"require"    : true,
+		"should"     : true,
+		"spyOn"      : true
 	}
 }

@@ -64,7 +64,7 @@
 		"brace-style"             : [ 2, "1tbs" ],
 		"camelcase"               : 2,
 		"consistent-this"         : [ 0, "self" ],
-		"func-names"              : 1 ,
+		"func-names"              : 1,
 		"key-spacing"             : [ 2 , { "beforeColon" : true, "afterColon" : true, "align" : "colon" } ],
 		"max-nested-callbacks"    : [ 1, 4 ],
 		"new-cap"                 : 2,

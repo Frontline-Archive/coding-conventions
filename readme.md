@@ -23,10 +23,12 @@ The following three books are great reference for this topic. It is highly recom
 ## Setup / Configuration
 
 Using terminal, download the following linting and editor configuration files in your project directory:
-```
+```bash
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.editorconfig
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.eslintrc
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.jscsrc
+# JSHint rules are deprecated, and will be removed in the next major release.
+# All previously configured JSHint rules are covered by ESLint.
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.jshintrc
 ```
 

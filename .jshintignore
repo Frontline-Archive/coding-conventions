@@ -4,3 +4,4 @@ grunt/**
 instrumented/**
 node_modules/**
 test/data/**
+coverage/**

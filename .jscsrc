@@ -6,7 +6,8 @@
 		"instrumented/**",
 		"node_modules/**",
 		"test/data/**",
-		".*/"
+		".*/",
+		"coverage/**"
 	],
 
 	"requireCurlyBraces" : [

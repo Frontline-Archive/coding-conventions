@@ -90,7 +90,6 @@
 		"brace-style"              : [ 2, "1tbs" ],
 		"camelcase"                : 2,
 		"consistent-this"          : [ 0, "self" ],
-		"func-names"               : 1,
 		"comma-spacing"            : [ 2, { "before" : false, "after" : true } ],
 		"key-spacing"              : [ 2, { "beforeColon" : true, "afterColon" : true, "align" : "colon" } ],
 		"max-nested-callbacks"     : [ 1, 4 ],

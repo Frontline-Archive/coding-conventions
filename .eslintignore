@@ -5,3 +5,4 @@ instrumented/**
 node_modules/**
 test/data/**
 coverage/**
+client/app/visualize.js

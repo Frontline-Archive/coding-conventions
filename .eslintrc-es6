@@ -1,0 +1,16 @@
+{
+	"env" : {
+		"es6" : true,
+	},
+
+	"rules" : {
+
+		// Possible Errors
+		"no-constant-condition" : 0,
+
+		// ECMAScript 6
+		"generator-star-spacing" : [ 2, "before" ],
+		"no-var"                 : 2,
+		"object-shorthand"       : [ 2, "always" ]
+	}
+}

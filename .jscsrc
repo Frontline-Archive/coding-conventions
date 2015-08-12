@@ -1,13 +1,14 @@
 {
 	"excludeFiles" : [
+		"**/*.min.js",
 		"bower_components/**",
 		"build/**",
+		"coverage/**",
 		"grunt/**",
 		"instrumented/**",
+		"js/libs/**",
 		"node_modules/**",
-		"test/data/**",
-		".*/",
-		"coverage/**"
+		"test/data/**"
 	],
 
 	"requireCurlyBraces" : [

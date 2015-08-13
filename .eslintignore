@@ -4,6 +4,7 @@ build/**
 coverage/**
 grunt/**
 instrumented/**
+instrumented-integration/**
 js/libs/**
 node_modules/**
 test/data/**

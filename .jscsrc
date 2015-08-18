@@ -3,7 +3,7 @@
 		"**/*.min.js",
 		"bower_components/**",
 		"build/**",
-		"cache/**"
+		"cache/**",
 		"coverage/**",
 		"dist/**",
 		"grunt/**",

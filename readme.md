@@ -21,15 +21,11 @@ The following three books are great reference for this topic. It is highly recom
 * [Code Complete (2nd Edition)](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
 
 ## Setup / Configuration
-
 Using terminal, download the following linting and editor configuration files in your project directory:
 ```bash
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.editorconfig
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.eslintrc
 curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.jscsrc
-# JSHint rules are deprecated, and will be removed in the next major release.
-# All previously configured JSHint rules are covered by ESLint.
-curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.jshintrc
 ```
 
 Install these packages for Sublime Text 3
@@ -37,5 +33,4 @@ Install these packages for Sublime Text 3
 * [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3)
 * [SublimeLinter-jscs](https://github.com/SublimeLinter/SublimeLinter-jscs)
 * [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
-* [SublimeLinter-jshint](https://github.com/SublimeLinter/SublimeLinter-jshint)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)

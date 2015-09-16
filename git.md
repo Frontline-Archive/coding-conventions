@@ -23,6 +23,7 @@ blank and other lines should be wrapped at 80 characters.
 
 * **feature** (new feature for the user, not a new feature for build script)
 * **fix** (bug fix for the user, not a fix to a build script)
+* **dep** (change dependency versions)
 * **docs** (changes to the documentation)
 * **style** (formatting, missing semi colons, etc; no production code change)
 * **refactor** (refactoring production code, eg. renaming a variable)

@@ -9,6 +9,7 @@
 		"grunt/**",
 		"instrumented/**",
 		"instrumented-integration/**",
+		"instrumented-benchmark/**",
 		"js/libs/**",
 		"node_modules/**",
 		"test/data/**"

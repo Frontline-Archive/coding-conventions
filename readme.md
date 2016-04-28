@@ -9,10 +9,10 @@ Early on in the development of the new platform, we recognized the need for cons
 As an organization, we need to write code for humans and not machines.
 
 ### Coding Conventions and Standards
-* [JavaScript](https://github.com/School-Improvement-Network/coding-conventions/blob/master/javascript.md)
-* [HTML](https://github.com/School-Improvement-Network/coding-conventions/blob/master/html.md)
-* [CSS / Less](https://github.com/School-Improvement-Network/coding-conventions/blob/master/css.md)
-* [iOS](https://github.com/School-Improvement-Network/coding-conventions/blob/master/ios.md)
+* [JavaScript](https://github.com/sinet/coding-conventions/blob/master/javascript.md)
+* [HTML](https://github.com/sinet/coding-conventions/blob/master/html.md)
+* [CSS / Less](https://github.com/sinet/coding-conventions/blob/master/css.md)
+* [iOS](https://github.com/sinet/coding-conventions/blob/master/ios.md)
 
 ### Additional Reading
 The following three books are great reference for this topic. It is highly recommend that everyone read them:
@@ -23,9 +23,9 @@ The following three books are great reference for this topic. It is highly recom
 ## Setup / Configuration
 Using terminal, download the following linting and editor configuration files in your project directory:
 ```bash
-curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.editorconfig
-curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.eslintrc
-curl -O https://raw.githubusercontent.com/School-Improvement-Network/coding-conventions/master/.jscsrc
+curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.editorconfig
+curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.eslintrc
+curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.jscsrc
 ```
 
 Install these packages for Sublime Text 3

@@ -25,12 +25,10 @@ Using terminal, download the following linting and editor configuration files in
 ```bash
 curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.editorconfig
 curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.eslintrc
-curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.jscsrc
 ```
 
 Install these packages for Sublime Text 3
 * [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
 * [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3)
-* [SublimeLinter-jscs](https://github.com/SublimeLinter/SublimeLinter-jscs)
 * [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
 * [DocBlockr](https://github.com/spadgos/sublime-jsdocs)

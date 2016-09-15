@@ -9,7 +9,7 @@
 		"no-constant-condition" : 0,
 
 		// ECMAScript 6
-		"generator-star-spacing" : [ 2, "before" ],
+		"generator-star-spacing" : [ 2, "both" ],
 		"no-var"                 : 2,
 		"object-shorthand"       : [ 2, "always" ]
 	}

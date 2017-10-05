@@ -1,3 +1,21 @@
+#
+# NOTES
+#
+# ------------------------------------------------------------------------------
+# Atom specific
+#
+# if you get the following error:
+# 		whitespace: It is possible that the "whitespace"-package prevents the
+# 		following properties from working reliably: insert_final_newline,
+# 		trim_trailing_whitespace.  You may try reconfiguring or disabling the
+# 		"whitespace"-package to solve regarding issues.
+# then:
+# 	1. open Atom's Command Pallette (e.g. ⌘-⇧-P / cmd-shift-P)
+# 	2. activate "Settings View: View Installed Packages"
+# 	3. filter on "whitespace"
+# 	4. click "Disable" on the whitespace package
+# ------------------------------------------------------------------------------
+
 root = true
 
 [*]
@@ -10,3 +28,8 @@ trim_trailing_whitespace = true
 [{*.yml,*.json}]
 indent_style = space
 indent_size = 2
+
+[*.md]
+indent_style = space
+indent_size = 3
+trim_trailing_whitespace = false

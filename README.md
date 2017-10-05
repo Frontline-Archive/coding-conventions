@@ -9,6 +9,8 @@ Early on in the development of the new platform, we recognized the need for cons
 As an organization, we need to write code for humans and not machines.
 
 ### Coding Conventions and Standards
+* [git](https://github.com/sinet/coding-conventions/blob/master/git.md)
+* [npm](https://github.com/sinet/coding-conventions/blob/master/npm.md)
 * [JavaScript](https://github.com/sinet/coding-conventions/blob/master/javascript.md)
 * [HTML](https://github.com/sinet/coding-conventions/blob/master/html.md)
 * [CSS / Less](https://github.com/sinet/coding-conventions/blob/master/css.md)
@@ -21,14 +23,23 @@ The following three books are great reference for this topic. It is highly recom
 * [Code Complete (2nd Edition)](http://www.amazon.com/Code-Complete-Practical-Handbook-Construction/dp/0735619670)
 
 ## Setup / Configuration
-Using terminal, download the following linting and editor configuration files in your project directory:
+For new or uninitialized projects, use terminal to download the following linting and editor configuration files in your project directory:
 ```bash
 curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.editorconfig
 curl -O https://raw.githubusercontent.com/sinet/coding-conventions/master/.eslintrc
 ```
 
-Install these packages for Sublime Text 3
-* [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime)
-* [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3)
-* [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint)
-* [DocBlockr](https://github.com/spadgos/sublime-jsdocs)
+Install the following packages for your editor/IDE of choice:
+
+| Sublime Text 3 |  Atom [0] |
+| :------------: | :--: |
+| [EditorConfig](https://github.com/sindresorhus/editorconfig-sublime) | [EditorConfig](https://atom.io/packages/editorconfig) |
+| [SublimeLinter](https://github.com/SublimeLinter/SublimeLinter3) | [Linter](https://atom.io/packages/linter) |
+| [SublimeLinter-eslint](https://github.com/roadhump/SublimeLinter-eslint) | [linter-eslint](https://atom.io/packages/linter-eslint) |
+| ? | [other linters (e.g. htmlhint, stylelint)](http://atomlinter.github.io/) |
+| [DocBlockr](https://github.com/spadgos/sublime-jsdocs) | [DocBlockr](https://atom.io/packages/docblockr) |
+
+[0] With Atom the following should be able to be installed directly from the command line, via:
+```
+apm install editorconfig linter linter-eslint docblockr
+```

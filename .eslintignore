@@ -1,5 +1,6 @@
 **/*.min.js
 bower_components/**
+cypress/**
 build/**
 cache/**
 coverage/**
